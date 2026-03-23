@@ -110,30 +110,30 @@
     \item \textbf{数理基础课程：}微积分I(94)，线性代数(95)，概率论与数理统计(91)，人工智能基础(94)，分析化学(93)，有机化学(89)
 \end{itemize}
 
-\section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 项目经历}
+\section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 科研经历}
 
 % --- 第一个项目 ---
 % 将标题行末尾的 \\ 替换为 \titlebreak 命令
-\textbf{98烂坑风控与可视化作战平台} \hfill 2024.08 -- 至今 \titlebreak
-项目描述：为维护cc98社区的讨论纯度、净化“心灵之约”版块风气，本项目旨在对“烂坑”进行科学、严谨的量化分析，并引入\textbf{大语言模型(LLM)}对烂坑帖进行\textbf{自动化情感极性与“离谱指数”标注}。
+\textbf{AlphaFold3类共折叠模型在药物筛选中的性能评估与应用 \quad 省级科创项目（第一负责人）} \hfill 2025.03 -- 至今 \titlebreak
 % 在 itemize 的选项中，使用 topsep=\intraProjectListTopSep 来控制上边距
-\begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{数据与后端}：运用 \textbf{Go} 语言及 \textbf{GORM} 框架，实现对全站“烂坑”帖的7x24小时全天候\textbf{抓取}与\textbf{入库}(MySQL)。
-    \item \textbf{可视化前端}：采用原生 \textbf{HTML/CSS/JS} 构建了“烂坑”实时监控\textbf{作战大屏}。实现了坑主成分分析、挖坑热力图、年度烂坑王榜单等\textbf{可视化图表}，并通过 \textbf{AJAX} 异步刷新，确保数据洞察的实时性。
-    \item \textbf{核心产出}：全面掌握了从\textbf{数据采集、清洗、LLM标注到可视化分析}的“反烂坑”全链路技术。
+项目描述：本项目主要对AlphaFold3(AF3), Protenix, Boltz-2三种AI共折叠模型在小分子药物虚拟筛选中的性能进行了全面评估，同时研究了多样的后处理方法对筛选性能的影响。最后利用本研究得到的优选方法，依据SPECS数据库对致病靶标酪氨酸激酶2(TYK2)进行虚拟筛选，获得了多种全新的潜在成药化合物骨架，并通过分子动力学模拟获得了初步证据，为后续结构优化、体外体内验证提供了依据。
+\begin{itemize}%[nosep, topsep=\intraProjectListTopSep]
+    \item \textbf{负责内容}：利用ChEMBL,RCSB,PDBbind+等数据库\textbf{构建评估数据集}；完成AF3等模型的\textbf{本地部署、测评、数据分析}；使用RTMScore,Vina,Glide等第三方打分函数对预测结构\textbf{重打分}；使用AMBER,OPLS等分子力场进行结构\textbf{能量最小化研究}；对TYK2靶标完成\textbf{虚拟筛选、结构聚类}，选取潜在化合物使用GROMACS进行\textbf{动力学模拟}验证；开发“从序列到结合能”的\textbf{自动化虚拟筛选平台}。
 \end{itemize}
 
 % 使用 \projectsep 命令来分隔两个项目
 \projectsep
+\textbf{基于多组学数据的多发性骨髓瘤AI药物筛选 \quad 科研训练项目} \hfill 2026.03 -- 至今 \titlebreak
+项目描述：本研究基于TCGA和GEO数据库的转录组信息和scRNA-seq，锁定多发性骨髓瘤的关键基因，并使用多种机器学习算法构建预后风险模型
+\begin{itemize}
+    \item 项目进展：
+\end{itemize}
+\projectsep
 
 % --- 第二个项目 ---
-\textbf{AIGC驱动的超进化自动挖坑机 (Agent)} \hfill 2025.02 -- 至今 \titlebreak
-项目描述：为探索心灵版规的边界，以及测试版主锁沉反应速度的极限，本项目基于\textbf{多智能体协作(MCP)与LLM}技术，开发了一款能\textbf{自主“挖坑”与“互坑”}的AI Agent。
-\begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{并发与调度}：后端采用 \textbf{Go} 语言，充分利用 \textbf{Goroutine} 和 \textbf{Channel} 的高并发模型，模拟\textbf{用户并发在线}，执行定时挖坑，确保挖坑行动的\textbf{隐蔽性}与\textbf{高效性}。
-    \item \textbf{实时监控与响应}：运用 \textbf{WebSocket} 协议实现了对目标帖子的\textbf{实时监听与交互}。确保在烂坑被识破的第一时间，Agent能光速完成\textbf{“lktp”}或\textbf{反向钓鱼}操作，展现出极高的AI博弈能力。
-    \item \textbf{可视化GUI}：前端使用 \textbf{React} 框架构建了\textbf{后台管理的可视化面板 (Admin Panel)}。可一键下达挖坑指令、动态调整Agent的\textbf{指令}、并实时监控数据。
-\end{itemize}
+\textbf{水稻中SPX1和PHR2差异表达和蛋白互作分析 \quad 科研训练项目} \hfill 2025.02 -- 2025.06 \titlebreak
+项目描述：本研究以水稻为材料，通过RT-qPCR发现了SPX1和PHR2在根和叶组织中的差异表达，并利用双分子荧光互补(BiFC)和酵母双杂交(Y2H)技术证明了SPX1与PHR2之间存在蛋白互作。
+
 
 \section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技能}
 \begin{itemize}[nosep]
