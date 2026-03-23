@@ -50,7 +50,7 @@
     nohead
 ]{geometry}
 
-\renewcommand{\baselinestretch}{1.5} % 行间距设为1.5
+\renewcommand{\baselinestretch}{1.2} % 行间距设为1.5
 
 \usepackage{titlesec}
 \usepackage{enumitem}
@@ -90,23 +90,24 @@
 
 %%%% 利用tikz来定位照片
 \begin{tikzpicture}[remember picture, overlay] 
-    \node[anchor = north east] at ($(current page.north east)+(-2cm,-1.2cm)$) {\includegraphics[height=3cm]{avatar.jpg}};
+    \node[anchor = north east] at ($(current page.north east)+(-2cm,-0cm)$) {\includegraphics[height=4cm]{zjl.jpg}};
   \end{tikzpicture}%
   %%%% 利用tikz来定位学校Logo，这里只在第一页显示
   \begin{tikzpicture}[remember picture, overlay] 
     \node[anchor = north west] at ($(current page.north west)+(0.5cm,+1.0cm)$) {\includegraphics[height=6cm]{zju.png}};
   \end{tikzpicture}%
-\centerline{\LARGE\bfseries{胡豆}} 
+\centerline{\LARGE\bfseries{郑嘉乐}} 
 
-\centerline{\normalsize{\faPhone\ 111-1111-1111 \quad \faEnvelopeO\ \href{mailto:3230100000@zju.edu.cn}{3230100000@zju.edu.cn}}} 
+\centerline{\normalsize{ \quad \faEnvelopeO\ \href{mailto:3230100881@zju.edu.cn}{3230100881@zju.edu.cn}}} 
 
-\centerline{\normalsize{\faGithubSquare\ \href{https://github.com/maksymilan}{https://github.com/maksymilan} \quad \faRssSquare\ \href{https://maksymilan.github.io/}{https://maksymilan.github.io}}} 
+\centerline{\normalsize{\faPhone\ (+86)130-1896-1952 \quad \faRssSquare\ \href{https://parzival886.github.io}{https://parzival886.github.io}}} 
     
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faGraduationCap}\ 教育背景}    
 \textbf{浙江大学} \hfill 2023.9 -- 至今\\[0.5em] % 标题和正文间加一点距离
-CC98烂坑挖掘工程与技术\quad 大二 
+\textbf{生命科学学院}\quad \textbf{生物科学} \quad 大三 (2023级)  \qquad \textbf{GPA}: 4.62/5.00(92.40/100.00)  \qquad \textbf{排名：}1/32
 \begin{itemize}[nosep]
-    \item 相关课程：《烂坑挖掘及基础》、《高级挖坑技巧》、《烂坑数理统计》
+    \item \textbf{专业核心课程:} 生物化学(95)，分子生物学及实验(92)，细胞生物学及实验(92)，微生物学及实验(96)，遗传学及实验(96)，计算生物学(99)，进化生物学(93)，发育生物学(94)
+    \item \textbf{数理基础课程：}微积分I(94)，线性代数(95)，概率论与数理统计(91)，人工智能基础(94)，分析化学(93)，有机化学(89)
 \end{itemize}
 
 \section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 项目经历}
@@ -134,22 +135,21 @@ CC98烂坑挖掘工程与技术\quad 大二
     \item \textbf{可视化GUI}：前端使用 \textbf{React} 框架构建了\textbf{后台管理的可视化面板 (Admin Panel)}。可一键下达挖坑指令、动态调整Agent的\textbf{指令}、并实时监控数据。
 \end{itemize}
 
-\section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
+\section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技能}
 \begin{itemize}[nosep]
-    \item \textbf{编程语言：} \textbf{Go}, Python, C++
-    \item \textbf{开发工具：} SSH, Git, Vim, MakeFile,LaTex
-    \item \textbf{操作系统：} Linux
+    \item \textbf{计算机技能：} Linux系统操作, Python, R, LaTex, 计算生物学技能(分子对接、高通量虚拟筛选、动力学模拟与表征), 常用软件(Pymol, VMD, GROMACS, Schrödinger, Autodock, RDKit, Openbabel)
+    \item \textbf{实验技能：} RT-qPCR, 分子克隆, SDS-PAGE, Western-Blots, 酵母双杂交(Y2H), 流式细胞术
 \end{itemize}
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faList}\ 获奖情况}
 \begin{itemize}
-    \item CC98年度用户 \hfill 2023.12
+    \item 国家奖学金、浙江大学一等奖学金、浙江大学优秀学生 \hfill 2024.12
+    \item 国家奖学金、浙江大学一等奖学金、郭谢碧蓉奖学金、浙江大学优秀学生 \hfill 2025.12
     
 \end{itemize}
     
 \section{\makebox[\widthof{\faInfo}][c]{\color{CVBlue}\faInfo}\ 其他}
 \begin{itemize}[parsep=0.5ex]
-    \item \textbf{技术博客：} \href{https://maksymilan.github.io/}{https://maksymilan.github.io/}
-    \item \textbf{GitHub：} \href{https://github.com/maksymilan}{https://github.com/maksymilan} 
-    \item \textbf{英语水平：} CET-4, CET-6
+    \item \textbf{英语水平：}CET-6:561
+    \item \textbf{学生工作：}浙江大学交响管乐团成员、浙江大学生命科学学院学生会文体部负责人
 \end{itemize}
 \end{document}
